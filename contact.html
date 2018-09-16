@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="Stylz/contactfrom.css">
+<style>
+
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+font-family: sans-serif; 
+}
+
+.header
+{    
+background-color: rgb(146, 154, 156);
+padding: 20px;
+font-size: 300%;    
+text-align: center;
+}
+.contact-title{
+margin-top: 100px;
+color: #fff;
+text-transform: uppercase;
+transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+font-size: 32px;
+line-height: 10px;
+}
+
+.contact-title h2{
+font-size: 16px;
+}
+
+form{
+margin-top: 50px;
+transition: all 4s ease-in-out;
+}
+
+.form-control{
+width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+font-size: 25px;
+margin-bottom: 16px;
+}
+
+input{
+height: 45px;
+}
+
+form .submit{
+background: #00f7cd;
+border-color: transparent;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 2px;
+height: 50px;
+margin-top: 20px;
+}
+
+form .submit:hover{
+background-color: #0f6dda;
+cursor: pointer;
+}
+
+/* Style the top navigation bar */
+.navbar {
+display: flex;
+background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a
+{
+padding:20px;
+text-align:center;
+text-decoration: none;
+color: black;
+width:33.333333333%;
+}
+.navbar a:hover
+{
+background-color: rgb(54, 52, 52);
+}
+
+html{
+background:linear-gradient(rgba(8, 214, 8, 0.514),rgba(0, 204, 255, 0.616)),url(Visimg/Mountains2.jpg) no-repeat center center fixed;
+background-size:cover; 
+height: 100%;
+overflow: hidden;
+} 
+
+p{
+color: white;
+}
+
+.talk
+{
+width: 100%;
+height: 100%;
+text-align:center;
+padding:20px;
+font-size:130%;
+font-weight: bold;
+color: rgb(0, 0, 0);
+background-color: rgba(169, 169, 169, 0);           
+}
+
+</style>
+</head>
+<body>
+<div class="header">Contact Page</div>
+<div class="navbar">
+<a href="Index1.html">Index</a>
+<a href="hobby.html">Hobbies</a>
+<a href="contact.html">Contact Info</a>
+</div>
+
+
+
+
+<div class="contact-title">
+<h1 style="color:black">Contact Information</h1>
+</div>
+
+<div class="contact-form">
+
+<form id="contact-form" method="POST" action="">
+
+<p style="color:black">Please select your main reason for contact.</p>
+
+<select name="Reason for contact" id="">
+<option value="Hobby's">Hobby's</option>
+<option value="Info">Info</option>
+<option value="Education">Education</option>
+<option value="Work">Work</option>
+<option value="Other..">Other..</option>
+</select>
+<br/>
+
+<input name="name" type="text" class="form-control" placeholder="Your Name" required><br/>
+
+<input name="Email" type="email" class="form-control" placeholder="Your Email" required><br/>
+
+<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br/>
+
+<input type="submit" class="form-control submit" value="SEND MESSAGE">
+</form>
+</div>
+
+
+</body>
+</html>

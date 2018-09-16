@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mev's Personal page</title>
+</head>
+<style>
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+    body
+    {
+      background-color: rgb(146, 137, 137);
+      background-image: url(Visimg/GalaxyTab.png);
+      background-size:cover;
+      opacity: 50%;
+      
+    }
+
+    .header
+    {
+    
+    background-color: rgb(146, 154, 156);
+    padding: 20px;
+    font-size: 300%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+        
+    }
+
+    .navbar
+    {
+      background-color: rgb(122, 128, 131);
+      display: flex;
+      overflow: hidden;
+      position: sticky;
+    }
+    
+    .navbar a
+    {
+      padding:20px;
+      text-align:center;
+      text-decoration: none;
+      color: black;
+      width:33.333333333%;
+    }
+    .navbar a:hover
+    {
+      background-color: rgb(54, 52, 52);
+    }
+    .sidebarLeft
+    {
+      float: left;
+      height: 250px;
+      width: 100%;      
+      text-align: center;
+      background-color: rgb(3, 0, 2);
+    }
+    .sidebarRight
+    {
+      float: right;
+      height: 250px;
+      width: 100%;      
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      transform: scaleX(-1);
+    }
+    .centerTab
+    {
+    
+      float:left;
+      height: 300px;
+      width: 100%;
+      padding: 8px;
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      
+    
+    }
+     .page 
+     {
+     display:flex;
+     flex-wrap: wrap;
+     }
+
+    .Left
+    {     
+    flex:25%;
+    ;
+    
+    float:left;
+
+    }    
+    .Right
+    {
+
+    flex:25%;
+    
+    
+    float:right;
+
+    }
+
+    .main
+
+    {
+
+    flex:50%;
+    
+    
+    float:center;
+
+    }
+
+    .footer 
+    {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    }
+
+ table, th, td{
+    border: 2px solid rgb(56, 54, 54) ;
+    border-collapse: collapse;
+    width: 50%;
+    padding: 8px;
+    
+    
+    
+    }
+    table#t01 tr:nth-child(even){
+    background-color: black;
+    color: rgb(95, 160, 160);
+    }
+    table#t01 tr:nth-child(odd){
+    background-color: rgb(95, 160, 160);
+    color: black
+    }
+    table#t01 th{
+    background-color: rgb(96, 97, 97);
+    
+    }
+    tr:hover td{
+    background-color:rgb(96, 97, 97);
+    }
+    
+
+</style>
+<body>
+
+
+<div class="header">The Introduction</div>
+<div class="navbar">
+  <a href="Index1.html">Index</a>
+  <a href="hobby.html">Hobbies</a>
+  <a href="contact.html">Contact Info</a>
+</div>
+
+<div class="page">
+
+<div class="Left">
+
+<div class="sidebarLeft">
+
+   <img src="/Visimg/GalaxMan.jpg" height="100%" width="100%" alt="Urf Left">
+
+  </div>
+
+  <div class="sidebarLeft" style="color: mintcream;background:none" >
+  
+  
+      <h2>General Information</h2>
+      
+      <table id="t01" style="width:100%" >        
+        <tr>
+          <td><b>Name</b></td>
+          <td>Jean Maverick Boezem</td>          
+        </tr>
+        <tr>
+          <td><b>Birth Date</b></td>
+          <td>25 Augustus 1996</td>          
+        </tr>
+        <tr>
+          <td><b>Address</b></td>
+          <td>Leeuwarden Eewal 72A</td>          
+        </tr>
+        <tr>
+          <td><b>Hobbies</b></td>
+          <td ><a href="hobby.html" ><b  style="color: rgb(95, 160, 160)" title  ="Links to hobby.html">here is a list</b></a></td>          
+        </tr>
+        <tr>
+          <td><b>Vooropleiding</b></td>
+          <td>See Cv</td>          
+        </tr>
+        
+      </table>
+
+  </div>
+
+  </div>
+
+  <div class="main">
+
+
+
+<div class="centerTab" style="background:none" >
+<br/>
+<embed src="/Visimg/CV.pdf" height="900px" width="100%" style="padding: none">
+<div class="footer">Footer here</div>
+
+</div>
+
+  </div>
+
+  <div class="Right">
+
+<div class="sidebarRight">
+
+    <img src="/Visimg/GalaxMan.jpg" height="100%" width="100%" alt="Urf Right">
+  
+  </div>
+
+  <table id="t01" style="width:100%">
+      <h2 style="color:aliceblue">Programming languages i can use</h2>
+      <tr>
+          <th><i>Language:</i></th>
+          <th><i>Skill lvl:</i></th>
+      </tr>
+      <tr>
+          <td><b>HTML</b><a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img title="Links to HTML Wikipedia page" src="/Visimg/HTML.png" width="50px" height="50px" style="float:right"></a></td>
+          <td>2 out of 5</td>
+      </tr>
+      <tr>
+          <td><b>CSS</b><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img title="Links to CSS Wikipedia page" src="/Visimg/CSS.png" width="50px" height="50px" style="float:right"></a></td>
+          <td>2 out of 5</td>
+      </tr>
+      <tr>
+          <td><b>C#</b><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank"><img title="Links to C# Wikipedia page" src="/Visimg/Csh.png" width="50px" height="50px" style="float:right"></a></td>
+          <td>2 out of 5</td>
+      </tr>
+  </table>
+
+
+  </div>
+
+  </div>
+  
+
+
+
+</body>
+</html>
