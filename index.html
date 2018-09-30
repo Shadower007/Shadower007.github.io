@@ -11,7 +11,7 @@
 {
 margin: 0;
 padding: 0;
-box-sizing: border-box;
+box-sizing:border-box;
 }
 
 body
@@ -53,14 +53,27 @@ width:33.333333333%;
 {
 background-color: rgb(54, 52, 52);
 }
-.sidebarLeft
+.sidebarLeftImg
 {
 float: left;
 height: 250px;
 width: 100%;      
 text-align: center;
 background-color:none;
+
 }
+
+.sidebarLeft
+{
+float: left;
+height: 350px;
+width: 100%;      
+text-align: center;
+background-color:none;
+overflow: hidden;
+overflow-y: auto;
+}
+
 .sidebarRight
 {
 float: right;
@@ -79,18 +92,21 @@ width: 100%;
 padding: 8px;
 text-align: center;
 background: none;
+
 }
 .page 
 {
 display:flex;
 flex-wrap: wrap;
+height: 1000px;
+overflow: hidden;
+overflow-y: auto;
+
 }
 
 .Left
 {     
 flex:10%;
-;
-
 float:left;
 
 }    
@@ -170,7 +186,7 @@ overflow: hidden;
 
 <div class="Left">
 
-<div class="sidebarLeft">
+<div class="sidebarLeftImg">
 
    <img src="Visimg/me.jpg" height="100%" width="60%" alt="Urf Left">
 
@@ -234,7 +250,7 @@ overflow: hidden;
 
 
 <div class="centerTab" style="background:none" >
-<embed src="Visimg/Cv1.pdf" height="1000px" width="100%" style="padding: none">
+<embed src="Visimg/Cv1.pdf" height="600px" width="100%" style="padding: none">
 </div>
 
   </div>
